@@ -1,0 +1,17 @@
+.text-input {
+  margin-right: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.text-input__form {
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px;
+  border: 0;
+}
+
+.text-input__form:focus {
+  outline: none;
+}

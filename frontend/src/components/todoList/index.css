@@ -1,0 +1,9 @@
+.todo-list {
+  padding: 32px;
+}
+
+.todo-list__item {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 16px
+}
