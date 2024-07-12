@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../button";
 import "./index.css";
 
 type Props = {
@@ -11,6 +12,12 @@ export default function TodoList({ data }: Props) {
       {data.map((item) => (
         <li key={item.id} className="todo-list__item">
           {item.title}
+          <Button
+            onClick={() => {
+              alert("deleted '" + item.title + "' !");
+            }}>
+            Delete
+          </Button>
         </li>
       ))}
     </ul>
